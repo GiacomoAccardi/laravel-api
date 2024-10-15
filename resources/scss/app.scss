@@ -1,0 +1,50 @@
+@import '~bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+.sidebar {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: calc(100vh - 75px);
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+header {
+    height: 75px;
+}
+
+.dash-content {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 75px);
+    overflow-y: auto;
+}
+
+.project-ref {
+    img {
+        width: 512px;
+        height: 340px;
+        object-fit: contain;
+    }
+}
+
+.bg-material {
+    background-image: url(https://wallpapercave.com/wp/wp11824958.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-material2 {
+    background-image: url(https://wallpapercave.com/wp/wp9140810.png);
+    background-size: cover;
+    background-position: center;
+}
