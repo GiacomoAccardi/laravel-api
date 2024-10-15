@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Project;
 
-class PostController extends Controller
+class ProjController extends Controller
 {
     public function index(){
         $projects = Project::all();
